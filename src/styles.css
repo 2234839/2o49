@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif;
+  position: relative;
+  overflow-x: hidden;
+  background-color: #f0f0f0;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url('/assets/bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #f0f0f0;
+  z-index: -1;
+}
+
+/* Logo styles */
+.logo {
+  position: fixed;
+  top: 2rem;
+  left: 2rem;
+  width: 4rem;
+  height: 4rem;
+  object-fit: contain;
+  transition: transform 0.5s ease;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}
+
+/* Content styles */
+.content {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.content-box {
+  background-color: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 42rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.content-box h1 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+
+.content-box p {
+  font-size: 1.25rem;
+  color: #4b5563;
+  line-height: 1.6;
+}
+
+/* Cat image styles */
+.cat-link {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 10;
+}
+
+.cat-image {
+  width: 8rem;
+  height: 8rem;
+  object-fit: contain;
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+
+.cat-image:hover {
+  transform: scale(1.1);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s ease-out forwards;
+}
+
+h1.fade-in {
+  animation-delay: 0.2s;
+}
+
+p.fade-in {
+  animation-delay: 0.4s;
+}
+
+@media (max-width: 768px) {
+  .background {
+    background-attachment: scroll;
+    background-size: cover;
+  }
+
+  .content-box {
+    padding: 1.5rem;
+  }
+
+  .content-box h1 {
+    font-size: 1.75rem;
+  }
+
+  .content-box p {
+    font-size: 1rem;
+  }
+  .cat-image {
+    width: 6rem;
+    height: 6rem;
+  }
+}
