@@ -46,8 +46,8 @@ body {
   position: fixed;
   top: 0rem;
   left: 0rem;
-  width: 9rem;
-  height: 9rem;
+  width: 12rem;
+  height: 12rem;
   object-fit: contain;
   transition: transform 0.5s ease;
 }
@@ -92,13 +92,13 @@ h1 {
 /* Cat image styles */
 .cat-link {
   position: fixed;
-  bottom: -3.5rem;
+  bottom: -5rem;
   right: 0rem;
   z-index: 10;
 }
 
 .cat-image {
-  width: 30rem;
+  width: 50rem;
   object-fit: contain;
   cursor: pointer;
   transition: transform 0.5s ease;
