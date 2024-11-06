@@ -133,7 +133,7 @@ p.fade-in {
   animation-delay: 1s;
 }
 
-/* 媒体查询，适配移动端 */
+               /* 媒体查询，适配移动端 */
 @media (max-width: 768px) {
   .logo {
     width: 8rem;
@@ -159,34 +159,6 @@ p.fade-in {
   }
 
   .cat-image {
-    width: 30rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .logo {
-    width: 6rem;
-    height: 6rem;
-  }
-
-  h1 {
-    font-size: 2rem;
-  }
-
-  .content-box {
-    padding: 1rem;
-  }
-
-  .content-box p {
-    font-size: 0.9rem;
-  }
-
-  .cat-link {
-    bottom: -2rem;
-    right: -5rem;
-  }
-
-  .cat-image {
-    width: 20rem;
+    width: 25rem;
   }
 }
