@@ -46,8 +46,8 @@ body {
   position: fixed;
   top: 0rem;
   left: 0rem;
-  width: 8rem;
-  height: 8rem;
+  width: 10rem;
+  height: 10rem;
   object-fit: contain;
   transition: transform 0.5s ease;
 }
@@ -98,7 +98,7 @@ h1 {
 }
 
 .cat-image {
-  width: 12rem;
+  width: 15rem;
   object-fit: contain;
   cursor: pointer;
   transition: transform 0.5s ease;
