@@ -66,9 +66,9 @@ body {
   text-align: center;
 }
 
-.content-box h1 {
+h1 {
   font-size: 2.25rem;
-  font-weight: bold;
+  font-weight: initial;
   color: #1f2937;
   margin-bottom: 1rem;
 }
