@@ -92,7 +92,7 @@ h1 {
 /* Cat image styles */
 .cat-link {
   position: fixed;
-  bottom: -10rem;
+  bottom: -8rem;
   right: 0rem;
   z-index: 10;
 }
