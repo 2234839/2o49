@@ -126,10 +126,10 @@ h1 {
 }
 
 h1.fade-in {
-  animation-delay: 0.2s;
+  animation-delay: 1s;
 }
 
 p.fade-in {
-  animation-delay: 0.4s;
+  animation-delay: 1s;
 }
 
