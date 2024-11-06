@@ -20,8 +20,8 @@ body {
   width: 100%;
   height: 100%;
   background-image: linear-gradient(
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.5)
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.9)
     ),
     url('/assets/bg.png');
   background-size: cover;
@@ -89,7 +89,6 @@ body {
 
 .cat-image {
   width: 12rem;
-  height: 12rem;
   object-fit: contain;
   cursor: pointer;
   transition: transform 0.5s ease;
