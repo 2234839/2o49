@@ -1,0 +1,1 @@
+cp -r /root/2o49/* /opt/1panel/apps/openresty/openresty/www/sites/2o49.com/index
