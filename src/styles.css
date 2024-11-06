@@ -141,7 +141,7 @@ p.fade-in {
   }
 
   h1 {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
 
   .content-box {
@@ -154,7 +154,7 @@ p.fade-in {
   }
 
   .cat-link {
-    bottom: -5rem;
+    bottom: 0rem;
     right: 0rem;
   }
 
