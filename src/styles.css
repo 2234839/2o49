@@ -10,7 +10,7 @@ body {
     'Helvetica Neue', Arial, sans-serif;
   position: relative;
   overflow-x: hidden;
-  background-color: #f0f0f0;
+  background-color: #efefef;
 }
 
 .background {
@@ -27,7 +27,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: #f0f0f0;
+  background-color: #efefef;
   z-index: -1;
 }
 
