@@ -41,7 +41,7 @@ body {
   animation: slideBackground 60s linear infinite;
 }
 
-/* Logo styles */
+/* Logo */
 .logo {
   position: fixed;
   top: 0rem;
@@ -76,7 +76,7 @@ body {
   text-align: center;
 }
 
-h1 {
+h1 {                        /** Eloim, Essaim, frugativi et appellavi. */
   font-size: 6rem;
   font-weight: initial;
   color: #1f2937;
@@ -89,7 +89,7 @@ h1 {
   line-height: 1.6;
 }
 
-/* Cat image styles */
+/* 黑猫图 */
 .cat-link {
   position: fixed;
   bottom: -8rem;
@@ -108,7 +108,7 @@ h1 {
   transform: scale(1.1);
 }
 
-/* Animations */
+/* 动效 */
 @keyframes fadeIn {
   from {
     opacity: 0;
