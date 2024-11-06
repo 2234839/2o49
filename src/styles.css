@@ -136,12 +136,12 @@ p.fade-in {
                /* 媒体查询，适配移动端 */
 @media (max-width: 768px) {
   .logo {
-    width: 8rem;
-    height: 8rem;
+    width: 4rem;
+    height: 4rem;
   }
 
   h1 {
-    font-size: 3rem;
+    font-size: 1rem;
   }
 
   .content-box {
@@ -154,8 +154,8 @@ p.fade-in {
   }
 
   .cat-link {
-    bottom: -4rem;
-    right: -10rem;
+    bottom: -5rem;
+    right: 0rem;
   }
 
   .cat-image {
